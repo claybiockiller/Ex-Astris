@@ -168,8 +168,17 @@ public class ExAstris {
 			DraconicEvolution.init();
 		}
 		
-		System.out.println("LOADED: "+Loader.isModLoaded("CoFHAPI|energy"));
+		if (Loader.isModLoaded("FoodPlus"))
+		{
+			log.info("+++ - Found FoodPlus");
+			FoodPlus.init();
+		}
 		
+		if (Loader.isModLoaded("witchery"))
+		{
+			log.info("+++ - Found Witchery");
+			Witchery.init();
+		}
 		
 		
 	}
