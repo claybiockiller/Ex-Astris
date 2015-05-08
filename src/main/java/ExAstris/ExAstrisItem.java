@@ -27,6 +27,7 @@ public class ExAstrisItem {
 	public static Item DollFreezing;
 	public static Item UnchargedNetherStar;
 	public static Item CrookRF;
+	public static Item EldritchPortalSpawner;
 	
 	//TConstruct Nether ores
 	public static Item cobaltOreItem;
@@ -84,6 +85,9 @@ public class ExAstrisItem {
 				DollFreezing = Thaumcraft.dollFreezing();
 				GameRegistry.registerItem(DollFreezing, ItemData.FREEZING_DOLL_UNLOCALIZED_NAME);
 			}
+			
+			EldritchPortalSpawner = Thaumcraft.eldritchPortalSpawner();
+			GameRegistry.registerItem(EldritchPortalSpawner, ItemData.ELDRITCH_SPAWNER_UNLOCALIZED_NAME);
 		}
 		if(Loader.isModLoaded("RedstoneArsenal"))
 		{

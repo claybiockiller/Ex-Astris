@@ -28,4 +28,7 @@ public class ItemData {
 	public static final String MANA_HAMMER_KEY = "hammer_mana";
 	public static final String MANA_HAMMER_UNLOCALIZED_NAME = "hammer_mana";
 	
+	public static final String ELDRITCH_SPAWNER_UNLOCALIZED_NAME = "eldritch_spawner";
+	public static final String ELDRITCH_PORTAL_SPAWNER_UNLOCALIZED_NAME = "eldritch_spawner";
+	
 }
