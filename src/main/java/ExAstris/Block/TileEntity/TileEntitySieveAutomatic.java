@@ -89,7 +89,7 @@ public class TileEntitySieveAutomatic extends TileEntity  implements IEnergyHand
 	@Override
 	public void updateEntity()
 	{
-		if(worldObj.isRemote && particleMode)
+		if (worldObj.isRemote && particleMode && ModData.sieveMakeParticles)
 		{
 			spawnFX(content, contentMeta);
 		}
